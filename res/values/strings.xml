@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">HeyContact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_contact">AddActivity</string>
+    <string name="contactName">Contact Name</string>
+    <string name="register">Register</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="name">Name</string>
+    <string name="telephone">Telephone</string>
+    <string name="company">Company</string>
+    <string name="position">Position</string>
+    <string name="email">eMail</string>
+    <string name="aditionalInformation">Aditional Information</string>
+    <string name="state">State</string>
+   
+</resources>
