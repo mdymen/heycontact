@@ -16,5 +16,7 @@
     <string name="email">eMail</string>
     <string name="aditionalInformation">Aditional Information</string>
     <string name="state">State</string>
-   
+    <string name="add">Add</string>
+    <string name="title_activity_contact_list">Contact_list</string>
+
 </resources>

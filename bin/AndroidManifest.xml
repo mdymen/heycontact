@@ -26,6 +26,10 @@
             android:name=".AddContactActivity"
             android:label="@string/title_activity_add_contact" >
         </activity>
+        <activity
+            android:name=".Contact_list"
+            android:label="@string/title_activity_contact_list" >
+        </activity>
     </application>
 
 </manifest>

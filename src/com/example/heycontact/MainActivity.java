@@ -1,5 +1,7 @@
 package com.example.heycontact;
 
+import com.example.database.Database;
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,10 +10,16 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+	
+	Database database;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_contact);
+        
+        database = new Database(this);
+        database.getWritableDatabase();
     }
 
 
